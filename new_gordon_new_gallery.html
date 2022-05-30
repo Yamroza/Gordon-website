@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Page Gordon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="new_styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header alternate shown">
+      <header>
+        <img src="logo2.png" class="logo" alt="logo" />
+        <i class="fa-solid fa-bars"></i>
+      </header>
+    </div>
+
+    <div class="sidebar menu">
+      <a href="">ACADEMY</a>
+    </div>
+    <div class="sidebar menu">
+      <a href="">RESTAURANTS & BARS</a>
+    </div>
+    <div class="sidebar element">
+      <a href="">UK RESTAURANTS</a>
+    </div>
+    <div class="sidebar element">
+      <a href="">US RESTAURANTS</a>
+    </div>
+
+    <div class="header main">
+      <header>
+        <img src="logo2.png" class="logo" alt="logo" />
+
+        <span class="buttons">
+          <button class="link"><a href="">ACADEMY</a></button>
+
+          <span class="dropdown">
+            <button class="link" [data-dropdown-button]>
+              <a href="">RESTAURANTS & BARS</a>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="dropdown_menu">
+              <a href="">UK RESTAURANTS</a>
+              <a href="">US RESTAURANTS</a>
+            </div>
+          </span>
+          <span class="dropdown">
+            <button class="link" [data-dropdown-button]>
+              <a href="">RECIPES</a>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="dropdown_menu">
+              <a href="">CHICKEN RECIPES</a>
+              <a href="">BEEF RECIPES</a>
+              <a href="">VEGETARIAN RECIPES</a>
+              <a href="">ULTIMATE FIT FOOD</a>
+            </div>
+          </span>
+          <span class="dropdown">
+            <button class="link" [data-dropdown-button]>
+              <a href="">MASTERCLASSES</a>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="dropdown_menu">
+              <a href="">THE GORDON RAMSEY VIDEO MASTERCLASS</a>
+            </div>
+          </span>
+          <span class="dropdown">
+            <button class="link" [data-dropdown-button]>
+              <a href="">ABOUT GORDON</a>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="dropdown_menu">
+              <a href="">GORDON & TANA RAMSEY FOUNDATION</a>
+              <a href="">BOOKS</a>
+              <a href="">HOMEWARES</a>
+            </div>
+          </span>
+          <span class="dropdown">
+            <button class="link" [data-dropdown-button]>
+              <a href="">TV</a>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="dropdown_menu">
+              <a href="">STUDIO RAMSEY</a>
+            </div>
+          </span>
+          <button class="link"><a href="">CAREERS</a></button>
+
+          <span class="dropdown">
+            <button class="link" [data-dropdown-button]>
+              <a href="">GIFTS</a>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="dropdown_menu">
+              <a href="">MICHELIN STAR GIFTS</a>
+              <a href="">BEEF WELLINGTON GIFTS</a>
+              <a href="">CORPORATE GIFTS</a>
+            </div>
+          </span>
+        </span>
+
+        <span class="emojis">
+          <a href="https://twitter.com/gordonramsay" target="_blank"
+            ><i class="fa-brands fa-twitter fa-lg"></i
+          ></a>
+          <a href="https://www.facebook.com/gordonramsay" target="_blank"
+            ><i class="fa-brands fa-facebook-f fa-lg"></i
+          ></a>
+          <a href="https://www.youtube.com/gordonramsay" target="_blank"
+            ><i class="fa-brands fa-youtube fa-lg"></i
+          ></a>
+          <a href="https://www.instagram.com/gordongram/" target="_blank"
+            ><i class="fa-brands fa-instagram-square fa-lg"></i
+          ></a>
+        </span>
+      </header>
+    </div>
+
+    <div class="slider-container">
+      <div class="mySlides">
+        <div class="image-container">
+          <img class="slide" src="memes/photo1.png" alt="Culinary game" />
+        </div>
+        <div class="texts">
+          <h1 class="huge text">GORDON RAMSAY <br />CHEF BLAST</h1>
+          <h2 class="little text">Download the Mobile Game Today!<br /></h2>
+          <button class="slider-butt" type="button">Download now</button>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="image-container">
+          <img class="slide" src="memes/photo2.png" alt="Pretty food" />
+        </div>
+        <div class="texts">
+          <h1 class="huge text">COOKING CLASS FOR EVERYONE</h1>
+          <h2 class="little text">At the Gordon Ramsay Academy<br /></h2>
+          <button class="slider-butt" type="button">Get Cooking</button>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="image-container">
+          <img class="slide" src="memes/photo4.jpg" alt="Gordon with book" />
+        </div>
+        <div class="texts">
+          <h1 class="huge text">THE RAMSAY IN 10 COOKBOOK</h1>
+          <h2 class="little text">
+            Based on his successful YouTube and Instagram Lives, The Ramsay in
+            10 provides 100 stunning recipes that can be done in a flash!
+            Available now!
+          </h2>
+          <button class="slider-butt" type="button">Order Your Copy Now</button>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="image-container">
+          <img class="slide" src="memes/photo3.png" alt="Restaurant" />
+        </div>
+        <div class="texts">
+          <h1 class="huge text">The River Restaurant by Gordon Ramsay</h1>
+          <h2 class="little text">Join us at The Savoy, London<br /></h2>
+          <button class="slider-butt" type="button">Book Now</button>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="image-container">
+          <img class="slide" src="memes/photo5.jpg" alt="Restaurant" />
+        </div>
+        <div class="texts">
+          <h1 class="huge text">Restaurant 1890 by Gordon Ramsay</h1>
+          <h2 class="little text">Now open in The Savoy Hotel, London<br /></h2>
+          <button class="slider-butt" type="button">Book Now</button>
+        </div>
+      </div>
+
+      <i class="fa-solid fa-angle-left arrow" onclick="changeSlide(-1)"></i>
+      <i class="fa-solid fa-angle-right arrow" onclick="changeSlide(1)"></i>
+
+      <div class="circle-container">
+        <i class="fa-solid fa-circle firstt" onclick="currentSlide(1)"></i>
+        <i class="fa-solid fa-circle second" onclick="currentSlide(2)"></i>
+        <i class="fa-solid fa-circle third" onclick="currentSlide(3)"></i>
+        <i class="fa-solid fa-circle fourth" onclick="currentSlide(4)"></i>
+        <i class="fa-solid fa-circle fifth" onclick="currentSlide(5)"></i>
+      </div>
+    </div>
+
+    <div class="whitespace about">
+      <h2>About Gordon Ramsay</h2>
+      <div class="underline"></div>
+      <p>
+        Internationally renowned, multi-Michelin starred chef Gordon Ramsay has
+        opened a string of successful restaurants across the globe, from the UK
+        and France to Singapore and the United States. Gordon has also become a
+        star of the small screen both in the UK and internationally, with shows
+        such as Kitchen Nightmares, Hell's Kitchen, Hotel Hell and MasterChef
+        US.
+      </p>
+      <button class="findoutmore" type="button">Find out more</button>
+    </div>
+
+    <div class="recipies_header">
+      <h2>Latest Recipes from Gordon</h2>
+      <div class="underline"></div>
+      <p>
+        Here's Some of the Latest Recipes Gordon's Been Cooking Up! Every recipe
+        has the home cook in mind with some of Gordon's signature touches.
+      </p>
+    </div>
+
+    <div class="recipies_links">
+      <div class="recipe">
+        <img
+          class="food_image"
+          src="memes/creamy_mushromm.jpg"
+          alt="Creamy mushroom toast"
+        />
+        <h3>CREAMY MUSHROOM TOAST WITH SOFT EGG & GRUYÈRE</h3>
+        <p>
+          A twist on the beloved British favorite, delightfully simple and
+          absolutely delicious for breakfast, brunch, lunch, or even dinner.
+        </p>
+        <button class="view_recipe_button" type="button">VIEW RECIPE</button>
+      </div>
+      <div class="recipe">
+        <img
+          class="food_image"
+          src="memes/vegansummersandwich.jpg"
+          alt="Vegan summer sandwich"
+        />
+        <h3>VEGAN SUMMER BLT WITH BASIL AIOLI</h3>
+        <p>
+          The BLT is a classic summer sandwich staple that features the season's
+          best produce - gorgeous heirloom tomatoes, crisp greens, and creamy
+          avocado. This Vegan spin features a crunchy tofu-rice paper bacon and
+          a summer basil aioli.
+        </p>
+        <button class="view_recipe_button" type="button">VIEW RECIPE</button>
+      </div>
+      <div class="recipe bot">
+        <img
+          class="food_image"
+          src="memes/fried_chicken.png"
+          alt="Fried chicken with spicy honey butter"
+        />
+        <h3>
+          PICKLE-BRINED FRIED CHICKEN WITH SPICY WHIPPED HONEY BUTTER AND TANGY
+          SLAW
+        </h3>
+        <p>
+          Be the talk of the picnic this summer with this uniquely tangy take on
+          a fried chicken. Brining the meat in pickle juice yields incredibly
+          juicy chicken contrasting with the extra crunchy exterior--this meal
+          is a labor of love that's sure to impress
+        </p>
+        <button class="view_recipe_button" type="button">VIEW RECIPE</button>
+      </div>
+      <div class="recipe bot">
+        <img
+          class="food_image"
+          src="memes/burger_tatin.jpg"
+          alt="Gordon's burger"
+        />
+        <h3>
+          GORDON'S ONION TATIN APPLE-BUTTER BASTED BURGER WITH MELTED CAMEMBERT
+        </h3>
+        <p>
+          This burger is a real show-stopper for your summer cookouts.
+          Cider-glazed Tatin-Style Caramelized onions baked right into a crisp,
+          fluffy puff pastry pastry bun. Paired with the perfect blend of the
+          very best beef for a deliciously moist burger, basted wi
+        </p>
+        <button class="view_recipe_button" type="button">VIEW RECIPE</button>
+      </div>
+    </div>
+
+    <!-- <div class="footer">
+      <footer></footer>
+    </div> -->
+
+    <div class="gallery">
+      <img
+        class="picture"
+        src="memes/creamy_mushromm.jpg"
+        alt="Creamy mushroom"
+      />
+    </div>
+
+    <script src="new_gordon.js"></script>
+  </body>
+</html>

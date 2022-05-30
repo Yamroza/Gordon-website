@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    opacity: .7;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: coral;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: indigo;
+}
+
+ul li ul li{
+    display: none;
+    width: 100%;
+
+}
+
+ul li:hover ul li{
+    display: block;
+}
